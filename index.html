@@ -1,61 +1,62 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>User Front Page</title>
-		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="styles.css">
-	</head>
-	<body>
-		<div class="open">
-			<div class="layer"></div>
-			<div class="layer"></div>
-		</div>
-		<section>
-			<div class="header">
-				<h2 class="logo"><img src="Picture1.png" width="250" height="55" alt=""></h2>
-				<ul>
-					<li>
-						<a href="#" >Home</a>
-					</li>
-					<li>
-						<a href="#">Chat</a>
-					</li>
-					<li>
-						<a href="#">Booking service</a>
-					</li>
-					<li>
-						<a href="#">Buy Parts</a>
-					</li>
-					<li>
-						<a href="#">Cart</a>
-					</li>
-					<li>
-						<a href="#">View Profile</a>
-					</li>
-                    <li>
-						<a href="#">Contact us</a>
-					</li>
-                    <li>
-						<a href="login.html">Logout</a>
-					</li>
-				</ul>
-			</div>
-			<div class="bannerText">
-				<h2>Welcome</h2><br>
-				<h3>to Ghorer Garage</h3>
-                
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Booking</title>
+	<link rel="stylesheet" href="css/booking.css">
+	
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="topnav">
+            <a href="#" class="logo"><img src="../logo.png" width="150" height="35" alt=""></a>
+            <a href="#home">Home</a>
+            <a href="#chat">Chat</a>
+            <a href="booking/index.html">Booking service</a>
+            <a href="#cart">Cart</a>
+            <a href="#profile">View profile</a>
+            <a href="#contact">Contact us</a>
+            <a href="homepage.html">Logout</a>
+          </div>
+	</header>
+<div class="wrapper">
+
+
+	<div class="container">
+
+		<div class="container-form">
+				<form action="#">
+					<h2 class="heading heading-Black">Book An Appoinment</h2>
+
+					<div class="form-field">
+						<p>Your Name</p>
+						<input type="text" placeholder="Your Name">
+					</div>
+					<div class="form-field">
+						<p>Your email</p>
+						<input type="email" placeholder="Your email">
+					</div>
+					<div class="form-field">
+						<p>Date</p>
+						<input type="date">
+					</div>
+					<div class="form-field">
+						<p>Time</p>
+						<input type="time">
+					</div>
+					<div class="form-field">
+						<p>Description of problem</p>
+						<input type="text" placeholder="   ">
+					</div>
 				
-			</div>
-			<img src="car11.jpg" width="2000">
-			<ul class="sci">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-			</ul>
-			<div class="element1"></div>
-			<div class="element2"></div>
-		</section>
-	</body>
+					<button class="btn">Submit</button>
+				</form>
+		</div>
+	</div>
+</div>	
+	
+</body>
+
 </html>
